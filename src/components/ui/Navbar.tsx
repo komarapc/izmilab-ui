@@ -9,7 +9,7 @@ function Navbar({
     <>
       <div
         {...rest}
-        className={`w-full h-20 flex items-center px-5  ${className}`}
+        className={`w-full h-16 flex items-center px-5  ${className}`}
       >
         {children}
       </div>
