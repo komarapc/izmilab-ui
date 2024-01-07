@@ -7,6 +7,12 @@ export default function ParagraphPage() {
     <>
       <HelmetExport>
         <title>Paragraph</title>
+        <meta name="description" content="Paragraph" />
+        <meta property="og:title" content="Docs - Paragraph" />
+        <meta
+          property="og:description"
+          content="Documentation Paragraph Izmilab-UI"
+        />
       </HelmetExport>
       <DocBluePrint>
         <Heading level={4}>Paragraph</Heading>
