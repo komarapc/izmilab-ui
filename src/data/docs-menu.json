@@ -1,0 +1,42 @@
+{
+  "menuLayout": [
+    { "name": "Flex", "path": "/docs/components/flex" },
+    { "name": "Grid", "path": "/docs/components/grid" }
+  ],
+  "menuTypography": [
+    { "name": "Heading", "path": "/docs/components/heading" },
+    { "name": "Paragraph", "path": "/docs/components/paragraph" },
+    { "name": "Blockquote", "path": "/docs/components/blockquote" }
+  ],
+  "formComponents": [
+    { "name": "Checkbox", "path": "/docs/components/checkbox" },
+    { "name": "Input", "path": "/docs/components/input" },
+    { "name": "Radio", "path": "/docs/components/radio" },
+    { "name": "Select", "path": "/docs/components/select" },
+    { "name": "Switch", "path": "/docs/components/switch" },
+    { "name": "Textarea", "path": "/docs/components/textarea" },
+    { "name": "Upload", "path": "/docs/components/upload" }
+  ],
+  "menuComponents": [
+    { "name": "Accordion", "path": "/docs/components/accordion" },
+    { "name": "Alert", "path": "/docs/components/alert" },
+    { "name": "Avatar", "path": "/docs/components/avatar" },
+    { "name": "Badge", "path": "/docs/components/badge" },
+    { "name": "Button", "path": "/docs/components/button" },
+    { "name": "Carousel", "path": "/docs/components/carousel" },
+    { "name": "Card", "path": "/docs/components/card" },
+    { "name": "Dropdown", "path": "/docs/components/dropdown" },
+    { "name": "Drawer", "path": "/docs/components/drawer" },
+    { "name": "Modal", "path": "/docs/components/modal" },
+    { "name": "Navbar", "path": "/docs/components/navbar" },
+    { "name": "Pagination", "path": "/docs/components/pagination" },
+    { "name": "Progress", "path": "/docs/components/progress" },
+    { "name": "Spinner", "path": "/docs/components/spinner" },
+    { "name": "Switch", "path": "/docs/components/switch" },
+    { "name": "Table", "path": "/docs/components/table" },
+    { "name": "Tabs", "path": "/docs/components/tabs" },
+    { "name": "Tooltip", "path": "/docs/components/tooltip" },
+    { "name": "Typography", "path": "/docs/components/typography" },
+    { "name": "Toast", "path": "/docs/components/toast" }
+  ]
+}

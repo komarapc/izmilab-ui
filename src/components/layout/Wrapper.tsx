@@ -19,7 +19,7 @@ export default function Wrapper({
         backgroundImage: `url(${BackgroundImg})`,
         backgroundRepeat: "no-repeat",
         backgroundPosition: "top",
-        backgroundAttachment: "fixed",
+        // backgroundAttachment: "fixed",
       }}
     >
       {children}

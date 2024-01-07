@@ -1,6 +1,8 @@
+import Heading from "@/components/ui/Heading";
 import { Helmet } from "react-helmet";
-import NavbarApp from "@/components/compose/NavbarApp";
-import Wrapper from "@/components/layout/Wrapper";
+import { lazy } from "react";
+
+const DocBluePrint = lazy(() => import("@/components/layout/DocBlueprint"));
 
 export default function Docs() {
   return (
@@ -8,9 +10,9 @@ export default function Docs() {
       <Helmet>
         <title>Docs</title>
       </Helmet>
-      <Wrapper>
-        <NavbarApp />
-      </Wrapper>
+      <DocBluePrint>
+        <Heading level={6}>Docs</Heading>
+      </DocBluePrint>
     </>
   );
 }

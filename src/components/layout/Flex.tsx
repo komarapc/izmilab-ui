@@ -1,32 +1,20 @@
-import { HTMLAttributes } from "react";
+import { ReactNode } from "react";
 
-interface Props extends HTMLAttributes<HTMLDivElement> {
-  wrap?: boolean;
-  gap?: number;
-  direction?: "row" | "col";
-  align?: "start" | "end" | "center" | "stretch" | "baseline";
-  justify?: "start" | "end" | "center" | "between" | "around" | "evenly";
-}
+type Props = {
+  className?: string;
+  children?: ReactNode;
+  direction: "row" | "col";
+  gap: number;
+};
 
-const Flex = ({
-  className,
-  children,
-  wrap,
-  gap,
-  direction,
-  align,
-  justify,
-  ...rest
-}: Props) => {
+const Flex = (props: Props) => {
+  const { direction, gap, children } = props;
+  const flexDirection = direction === "row" ? "flex-row" : "flex-col";
   return (
     <>
       <div
-        {...rest}
-        className={`flex ${wrap && "flex-wrap"} ${gap && `gap-${gap}`} ${
-          direction && `flex-${direction}`
-        } ${align && `items-${align}`} ${
-          justify && `justify-${justify}`
-        } ${className}`}
+        className={`flex ${flexDirection} ${props.className}`}
+        style={{ gap: `${gap * 0.25}rem` }}
       >
         {children}
       </div>

@@ -6,7 +6,7 @@ const Container = ({
   ...rest
 }: HTMLAttributes<HTMLDivElement>) => {
   return (
-    <div {...rest} className={`container mx-auto ${className}`}>
+    <div {...rest} className={`container mx-auto ${className} px-5`}>
       {children}
     </div>
   );
