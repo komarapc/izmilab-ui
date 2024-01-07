@@ -1,13 +1,14 @@
-import { Helmet } from "react-helmet";
+import HelmetExport from "react-helmet";
 import { Link } from "react-router-dom";
 import Wrapper from "@/components/layout/Wrapper";
 
 export default function Home() {
   return (
     <>
-      <Helmet>
+      <HelmetExport>
         <title>Home</title>
-      </Helmet>
+        <meta name="description" content="Izmilab UI" />
+      </HelmetExport>
       <Wrapper>
         <div className="p-5">
           <h1 className="text-2xl font-bold">Home</h1>
